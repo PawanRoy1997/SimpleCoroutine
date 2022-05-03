@@ -9,7 +9,7 @@ abstract class BaseActivity<Binding : ViewBinding> : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        getContentView()
+        view = getContentView()
         setContentView(view.root)
     }
 

@@ -3,4 +3,5 @@
     <string name="count">Count</string>
     <string name="start_counting">Start Counting</string>
     <string name="end_counting">End Counting</string>
+    <string name="data_store">Data Store</string>
 </resources>
